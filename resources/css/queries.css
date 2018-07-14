@@ -1,0 +1,149 @@
+/* for Big Tab to 1200px ; width smaller that the 1140px row */
+@media only screen and (max-width: 1200px){
+    .content{width:100%;
+        margin:0 auto;
+        padding: 0 auto;
+    }
+    .row{padding: 0 2%;}
+}
+
+/* for SMALL tab to Big Tab ; 768px to 1023px */
+@media only screen and (max-width: 1023px){
+.heading h2{
+    font-size: 28px;
+    width: 60%;
+}
+.formelement{
+    width: 60%;
+    padding: 20px;
+}
+.newsimg{
+    height: 350px;
+     width: 80%;
+      margin-top: 8px;
+}
+.details .col .first-coloumn{
+    display: block;
+    }
+
+    .logo{ display: none}
+    .image{ display: none}
+    .sliding a{width:100%;font-size:25px;height:25px;}
+    .write{margin-top: 26px;width: 100%;text-align: center;}
+    
+    .link{
+    margin-top: 18px;width: 180px;margin-left: 20px;
+    }
+   .noticeboard{
+    width: 200px;margin-top: 18px;margin-right: 20px; 
+    }
+    
+    .provost{
+        width: 489px;
+        }
+    
+    .first-part{width: 395px;}
+    
+    .right-sidebar{margin-left: 10px;}
+    
+    .footer{width:100%;margin:0px auto;}
+    .first{width: 290px;margin-top: 22px; }
+    .second{ width: 150px; margin-left: 25px;margin-top:22px; float: left;}
+    .third{width:180px;margin-left: 80px;margin-top:22px; float: left;}
+    
+    
+}
+
+/* for SMALL PHONES to small Tab; 481px to 767px */
+@media only screen and (max-width: 767px){
+.heading h2{
+    font-size: 26px;
+    width: 70%;
+}
+.formelement{
+    width: 70%;
+    padding: 17px;
+}
+.form-style{
+    width: 450px;
+    }
+
+    .write{margin-top: 26px;width: 100%; text-align: center;}
+    .write h4{font-size: 20px;}
+    .write h5{font-size: 15px;}
+    .searchbtn{float: left; margin-left: 10px;}
+    
+    .sliding a{width:100%;font-size:20px;height:20px;}
+    
+    .noticeandlink{width: 100%;}
+    .link{
+    margin-top: 18px;width: 180px;margin-left: 20px;
+    }
+   .noticeboard{
+    width: 200px;margin-top: 18px;margin-right: 20px;
+    }
+    .provost{
+        width: 420px;
+        }
+    .message p{width: 200px;font-size: 16px;}
+    
+    .right-sidebar{float: left; margin-left: 5px;}
+    .login{float: left; margin-left: 5px;}
+    
+    .footer{width:100%;}
+    .first{width: 220px;}
+    .second{ width: 150px; float: left; margin-left: 5px;}
+    .third{width:180px; float: left;margin-left: 5px;}
+    
+}
+
+/* for SMALL PHONES ; 0 to 480px */
+@media only screen and (max-width: 480px){
+    .heading h2{
+    font-size: 20px;
+    width: 90%;
+}
+.slide{
+    margin-right: 10px;
+}
+.formelement{
+    width: 90%;
+    padding: 14px;
+}
+.form-style{
+    width: 320px;
+}
+.newsimg{
+    height: 200px;
+     width: 95%;
+      margin-top: 5px;
+}
+.logout li a{
+    margin: 70px auto;
+}
+.informationform form{width: 100%;}
+    .slid{display: none} 
+    
+    .noticeandlink{width: 100%;}
+    .link{
+    margin-top: 10px;width: 150px;
+    }
+    .link h4{font-size: 20px}
+   .noticeboard{
+    width: 200px;margin-top: 10px; margin-left: 0;
+    }
+    .provost{
+        width: 350px;
+        }
+    .provostimage img{width: 92px;}
+    .btn a{ float: left;}
+    .message p{width: 150px;font-size: 12px;}
+    
+    .login{width: 80%; padding: 15px}
+    .login input[type=text]{border-radius: 5px;width: 200px;height: 20px;margin-left: 5px;margin-bottom: 5px;}
+    .login input[type=password]{border-radius: 5px;width: 200px;height:20px;margin-bottom:5px;}
+    
+    .right-sidebar{float: left; margin-left: 5px;}
+    .first-part h4{margin-top: 5px;margin-bottom: 5px;font-size:      14px; padding: 2px; margin: 2px;}
+    .first-part p{font-size: 12px;}
+}

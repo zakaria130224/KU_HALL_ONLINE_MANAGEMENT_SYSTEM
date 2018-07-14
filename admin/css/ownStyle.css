@@ -1,0 +1,47 @@
+.success{
+    color: green;
+}
+.error{
+    color: red;
+}
+.studentDetail{
+	text-align: center;
+}
+.studentPhoto{
+	height: 350px;
+	width: 500px;
+}
+.studentData{
+	display: inline-block;
+	float: left;
+	color: black;
+	font-size: 15px;
+	margin-bottom: 3px;
+}
+.detailLabel,
+.photoLabel{
+	margin-right: 10px;
+	color: red;
+	font-size: 15px;
+	margin-bottom: 0;
+}
+.detailLabel{
+	display: inline-block;
+	float: left;
+}
+.photoLabel{
+
+}
+.studentDetail{
+	display: inline-block;
+	margin-left: 20px;
+}
+.textBox{
+	border: 2px solid #cbbaba;
+}
+.delete a{
+	color: black;
+}
+.delete a:hover{
+	color: red;
+}

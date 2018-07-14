@@ -1,0 +1,52 @@
+
+.content-form{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 110%;
+}
+.content-body{
+    background-color: rgba(255, 255, 255, 0.21);
+    margin-left: 20px;
+}
+
+.content-body input[type=text],
+.content-body input[type=url],
+.content-body input[type=email],
+.content-body input[type=password],
+.content-body select,
+.content-body textarea{
+    margin: 10px auto;
+    width: 35%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.content-body input[type=file]{
+        font-size: 90%;
+    padding: 4px 4px 5px 4px;
+    border-top: 1px solid #b3b3b3;
+    border-left: 1px solid #b3b3b3;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    display: inline-block;
+    margin: 0em 0em 0em 0em;
+    font: Arial;
+.content-body {
+    padding-top: 20px;
+}
+.input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+}
+.content-body input[type=text]:focus,
+.content-body input[type=email]:focus,
+*:focus{
+    outline: none;
+    border: 1px solid rgba(98, 147, 98, 0.46);
+}
+
+/*...............................SLIDER.....................*/
+
+.slider{
+    margin-bottom: 10px;
+}
